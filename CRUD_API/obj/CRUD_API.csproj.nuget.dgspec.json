@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jnowa\\source\\repos\\CRUD_API\\CRUD_API\\CRUD_API.csproj": {}
+    "C:\\Users\\jnowa\\Documents\\GitHub\\CRUD-API\\CRUD_API\\CRUD_API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jnowa\\source\\repos\\CRUD_API\\CRUD_API\\CRUD_API.csproj": {
+    "C:\\Users\\jnowa\\Documents\\GitHub\\CRUD-API\\CRUD_API\\CRUD_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jnowa\\source\\repos\\CRUD_API\\CRUD_API\\CRUD_API.csproj",
+        "projectUniqueName": "C:\\Users\\jnowa\\Documents\\GitHub\\CRUD-API\\CRUD_API\\CRUD_API.csproj",
         "projectName": "CRUD_API",
-        "projectPath": "C:\\Users\\jnowa\\source\\repos\\CRUD_API\\CRUD_API\\CRUD_API.csproj",
+        "projectPath": "C:\\Users\\jnowa\\Documents\\GitHub\\CRUD-API\\CRUD_API\\CRUD_API.csproj",
         "packagesPath": "C:\\Users\\jnowa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jnowa\\source\\repos\\CRUD_API\\CRUD_API\\obj\\",
+        "outputPath": "C:\\Users\\jnowa\\Documents\\GitHub\\CRUD-API\\CRUD_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

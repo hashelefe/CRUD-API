@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iDs/igXwd4nv4exbOeO6R2hIc3GVjxGGJkX8v/ynbQKBXKZnsQ1bQ+xiiQyZFU/EfV0rir3oQypGGJIi/TCawA==",
+  "dgSpecHash": "HiMMILieOv6MnAaU91XNzYUtwSkYi3+bdbh7oFOPy/Ckb+dkpZb+RogGCZVbKr2d9dvUOR/Q4dhOItdOh31wZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jnowa\\source\\repos\\CRUD_API\\CRUD_API\\CRUD_API.csproj",
+  "projectFilePath": "C:\\Users\\jnowa\\Documents\\GitHub\\CRUD-API\\CRUD_API\\CRUD_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jnowa\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\jnowa\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
