@@ -18,6 +18,9 @@ namespace CRUD_API.Controllers
 
         //Get list of users
         [HttpGet]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(500)]
         public async Task<ActionResult<List<User>>> Get()
         {
             return Ok(await _context.Users.ToListAsync());
@@ -26,6 +29,9 @@ namespace CRUD_API.Controllers
 
         //Get one user by id
         [HttpGet("{id}")]
+        [ProducesResponseType(400)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(500)]
         public async Task<ActionResult<User>> Get(int id)
         {
             var user = await _context.Users.FindAsync(id);
@@ -37,6 +43,8 @@ namespace CRUD_API.Controllers
 
         //Create new user
         [HttpPost]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(500)]
         public async Task<ActionResult<List<User>>> AddUser(User user)
         {
             _context.Users.Add(user);
@@ -47,6 +55,9 @@ namespace CRUD_API.Controllers
 
         //Update user
         [HttpPut]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(500)]
         public async Task<ActionResult<User>> UpdateUser(User request)
         {
             var dbUser = await _context.Users.FindAsync(request.Id);
@@ -62,6 +73,9 @@ namespace CRUD_API.Controllers
 
         //Remove user by id
         [HttpDelete("{id}")]
+        [ProducesResponseType(200)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(500)]
         public async Task<ActionResult<User>> DeleteUser(int id)
         {
             var dbUser = await _context.Users.FindAsync(id);
